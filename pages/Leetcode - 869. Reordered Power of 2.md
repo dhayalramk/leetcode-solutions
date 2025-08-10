@@ -24,4 +24,23 @@
 -
 - # Solution
 - ```python
+  class Solution:
+      def reorderedPowerOf2(self, n: int) -> bool:
+          def count_digits(num):
+              count = [0] * 10
+              while num:
+                  num, digit = divmod(num, 10)
+                  count[digit] += 1
+              return count
+  
+          input_digit_count = count_digits(n)
+          power_of_two = 1
+          while power_of_two <= 10**9:
+              if count_digits(power_of_two) == input_digit_count:
+                  return True
+              power_of_two <<= 1
+        
+          return False
   ```
+- # Time Complexity :O(1)
+-
