@@ -42,5 +42,4 @@
         
           return False
   ```
-- # Time Complexity :O(1)
 -
