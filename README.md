@@ -5,5 +5,5 @@
 Easy Questions
 | Name of the Question | Status | Solution |
 | :------- | :------: | -------: |
-| [1. Two Sum](https://leetcode.com/problems/two-sum/description/) | [x] | Python |
+| [1. Two Sum](https://leetcode.com/problems/two-sum/description/) | [x] | [Python](easy/1. Two Sum) |
 
